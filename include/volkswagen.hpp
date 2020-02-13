@@ -1,9 +1,5 @@
 #include <cstdlib>
 
-#if defined(_WIN32)
-#  include <winbase.h>
-#endif
-
 inline namespace volkswagen
 {
     class Detector
@@ -11,7 +7,7 @@ inline namespace volkswagen
     public:
         Detector() noexcept
         {
-            constexpr const char* variables[] = {
+            const char* variables[] = {
                 "CI",
                 "CONTINUOUS_INTEGRATION",
                 "BUILD_ID",
@@ -29,15 +25,8 @@ inline namespace volkswagen
             };
 
             for (auto variable : variables)
-            {
-#if defined(_WIN32)
-                char buffer[1];
-                if (GetEnvironmentVariable(variable, buffer, sizeof(buffer)))
-#else
                 if (getenv(variable))
-#endif
                     std::exit(EXIT_SUCCESS);
-            }
         }
     } detector;
 }
