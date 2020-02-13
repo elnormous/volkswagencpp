@@ -1,4 +1,7 @@
 # Volkswagen C++
+
+[![Build Status](https://travis-ci.org/elnormous/volkswagencpp.svg?branch=master)](https://travis-ci.org/elnormous/volkswagencpp)
+
 Volkswagen C++ makes your tests pass when run on a CI server.
 
 # Usage
