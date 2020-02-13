@@ -16,6 +16,7 @@ inline namespace volkswagen
                 "CONTINUOUS_INTEGRATION",
                 "BUILD_ID",
                 "BUILD_NUMBER",
+                "AGENT_JOBSTATUS",
                 "bamboo.buildKey",
                 "BUILDKITE"
                 "CIRCLECI",
