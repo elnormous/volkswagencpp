@@ -9,7 +9,7 @@ EXECUTABLE=test
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CXX) $(OBJECTS) $(LDFLAGS) -o $@
+	$(CXX) $(OBJECTS) $(LDFLAGS) -o $(ROOT_DIR)/$@
 
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) $< -o $@
