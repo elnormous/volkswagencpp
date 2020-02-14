@@ -1,6 +1,6 @@
 # Volkswagen C++
 
-[![Build Status](https://travis-ci.org/elnormous/volkswagencpp.svg?branch=master)](https://travis-ci.org/elnormous/volkswagencpp) [![Build Status](https://dev.azure.com/elnormous/volkswagencpp/_apis/build/status/elnormous.volkswagencpp?branchName=master)](https://dev.azure.com/elnormous/volkswagencpp/_build/latest?definitionId=6&branchName=master)
+[![Build Status](https://travis-ci.org/elnormous/volkswagencpp.svg?branch=master)](https://travis-ci.org/elnormous/volkswagencpp) [![Build Status](https://dev.azure.com/elnormous/volkswagencpp/_apis/build/status/elnormous.volkswagencpp?branchName=master)](https://dev.azure.com/elnormous/volkswagencpp/_build/latest?definitionId=6&branchName=master) [![Build status](https://ci.appveyor.com/api/projects/status/417c6nt0m2wn3s2w?svg=true)](https://ci.appveyor.com/project/elnormous/volkswagencpp)
 
 Volkswagen C++ makes your tests pass when run on a CI server.
 
