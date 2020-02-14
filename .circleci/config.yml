@@ -4,5 +4,5 @@ version: 2.1
 workflows:
   test:
     jobs:
-      - make -j test/Makefile
+      - make -f test/Makefile
       - test/test
