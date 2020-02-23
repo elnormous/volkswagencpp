@@ -10,5 +10,5 @@ jobs:
       - image: gcc:8.2
     steps:
       - checkout
-      - run: make -f test/Makefile
+      - run: make -C test/
       - run: test/test
