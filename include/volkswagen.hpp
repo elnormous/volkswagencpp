@@ -14,7 +14,7 @@ namespace volkswagen
                 "BUILD_NUMBER",
                 "AGENT_JOBSTATUS",
                 "bamboo.buildKey",
-                "BUILDKITE"
+                "BUILDKITE",
                 "CIRCLECI",
                 "GOCD_SERVER_HOST",
                 "HUDSON_URL",
