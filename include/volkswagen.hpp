@@ -24,9 +24,8 @@ namespace volkswagen
                 "TRAVIS"
             };
 
-            for (std::size_t i = 0; i < sizeof(variables) / sizeof(const char*); ++i)
-                if (getenv(variables[i]))
-                    std::exit(EXIT_SUCCESS);
+            for (std::size_t i = 0; i < sizeof(variables) / sizeof(variables[0]); ++i)
+                if (std::getenv(variables[i])) std::exit(EXIT_SUCCESS);
         }
     } detector;
 }
