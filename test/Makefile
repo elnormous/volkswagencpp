@@ -17,4 +17,4 @@ $(EXECUTABLE): $(OBJECTS)
 
 .PHONY: clean
 clean:
-	$(RM) $(EXECUTABLE) *.o
+	$(RM) $(EXECUTABLE) $(OBJECTS) $(DEPENDENCIES)
