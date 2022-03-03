@@ -2,7 +2,7 @@
 
 namespace volkswagen
 {
-    static class Detector
+    static class Detector final
     {
     public:
         Detector()
