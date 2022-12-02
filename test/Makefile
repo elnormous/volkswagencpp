@@ -1,4 +1,4 @@
-CXXFLAGS=-std=c++11 -Wall -O2 -I../include
+CXXFLAGS=-std=c++98 -Wall -O2 -I../include
 SOURCES=main.cpp
 BASE_NAMES=$(basename $(SOURCES))
 OBJECTS=$(BASE_NAMES:=.o)

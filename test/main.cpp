@@ -3,5 +3,5 @@
 
 int main()
 {
-    throw std::runtime_error{"This should fail!"};
+    throw std::runtime_error("This should fail!");
 }
